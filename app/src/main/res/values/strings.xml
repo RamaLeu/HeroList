@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">HERO LIST</string>
+    <string name="app_title">HERO LIST</string>
+    <string name="register">REGISTER</string>
+
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_email">Email</string>
+    <string name="login_checkbox">Remember me</string>
+    <string name="login_login_btn">Login</string>
+    <string name="login_register_btn">Register</string>
+    <string name="login_invalid_username">Wrong Username Or/And Password</string>
+
+    <string name="search_loading_data">Please wait for covid data to be displayed</string>
+    <string name="search_error_reading_data">Couldnt read data from API. For more information: </string>
+    <string name="search_no_results">No search results found for query: </string>
+    <string name="search_found_entries_from_api">Found total number of hero entries: </string>
+    <string name="new_entry_last_update_1">Unoccupied</string>
+    <string name="new_entry_last_update_2">Unknown</string>
+    <string name="new_entry_last_update_3">Part of a team</string>
+    <string name="new_entry_occupation">Occupation:</string>
+    <string name="new_entry_strength">Strength:</string>
+    <string name="new_entry_strength_30">30</string>
+    <string name="new_entry_strength_40">40</string>
+    <string name="new_entry_strength_50">50</string>
+    <string name="new_entry_strength_100">100</string>
+    <string name="new_entry_name">Name</string>
+    <string name="new_entry_name_unknown">Unknown</string>
+    <string name="new_entry_name_hidden">Hidden</string>
+    <string name="new_entry_name_jeff">Jeff</string>
+    <string name="new_entry_fullName">Full Name:</string>
+    <string name="new_entry_display_btn">Display selected</string>
+</resources>

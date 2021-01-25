@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/new_entry_name">
+
+
+        </TextView>
+
+
+        <CheckBox
+            android:id="@+id/Unknown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_entry_name_unknown">
+
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/hidden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_entry_name_hidden">
+
+        </CheckBox>
+
+            <CheckBox
+                android:id="@+id/jeff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/new_entry_name_jeff"
+                android:textColorHighlight="#FF0303"
+                android:textColorLink="#FF0000">
+
+            </CheckBox>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_entry_strength">
+        </TextView>
+
+            <RadioGroup
+                android:id="@+id/strength"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:textColorHighlight="#FF0000"
+                android:textColorLink="#FF0000">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/new_entry_strength_30"></RadioButton>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/new_entry_strength_40"></RadioButton>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/new_entry_strength_50"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/custom_value_rb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="true"></RadioButton>
+            </RadioGroup>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/new_entry_occupation"
+                android:textColor="@color/colorWhite"/>
+            <Spinner
+                android:id="@+id/occupation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/new_entry_fullName"/>
+            <EditText
+                android:id="@+id/fullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <Button
+                android:id="@+id/display_selected_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGrey"
+                android:text="@string/new_entry_display_btn"/>
+
+</LinearLayout>
+</ScrollView>
+
+
+
+</LinearLayout>

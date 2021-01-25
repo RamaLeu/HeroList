@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.heroapi"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:7:5-44:19
+14        android:allowBackup="true"
+14-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+15-->[com.android.support:support-compat:28.0.0] C:\Users\Rama\.gradle\caches\transforms-2\files-2.1\2a6c121eda6c2cbe33230f54b72bbbd4\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.HeroApi" >
+22-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:13:9-45
+23        <activity android:name="com.example.heroapi.RegActivity" />
+23-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:14:9-58
+23-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:14:19-46
+24        <activity android:name="com.example.heroapi.NewEntryActivity" >
+24-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:15:9-19:20
+24-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:15:19-51
+25            <intent-filter>
+25-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:16:13-18:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:17:17-69
+26-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:17:25-66
+27            </intent-filter>
+28        </activity>
+29
+30        <meta-data
+30-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:21:9-23:47
+31            android:name="android.app.default_searchable"
+31-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:22:13-58
+32            android:value=".SearchActivity" />
+32-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:23:13-44
+33
+34        <activity
+34-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:25:9-36:20
+35            android:name="com.example.heroapi.SearchActivity"
+35-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:26:13-43
+36            android:launchMode="singleTop" >
+36-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:27:13-43
+37            <intent-filter>
+37-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:28:13-31:29
+38                <action android:name="android.intent.action.SEARCH" />
+38-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:29:17-71
+38-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:29:25-68
+39                <action android:name="android.intent.action.VIEW" />
+39-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:30:17-69
+39-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:30:25-66
+40            </intent-filter>
+41
+42            <meta-data
+42-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:33:13-35:54
+43                android:name="android.app.searchable"
+43-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:34:17-54
+44                android:resource="@xml/searchable" />
+44-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:35:17-51
+45        </activity>
+46        <activity android:name="com.example.heroapi.MainActivity" >
+46-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:37:9-43:20
+46-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:37:19-47
+47            <intent-filter>
+47-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:38:13-42:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:17:17-69
+48-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:17:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:41:17-77
+50-->C:\Users\Rama\Desktop\3LabDarbas\app\src\main\AndroidManifest.xml:41:27-74
+51            </intent-filter>
+52        </activity>
+53    </application>
+54
+55</manifest>

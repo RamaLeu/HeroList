@@ -1,0 +1,27 @@
+com/example/heroapi/BuildConfig.java
+ com.example.heroapi.BuildConfig
+com/example/heroapi/RegActivity.java
+ com.example.heroapi.RegActivity
+ com.example.heroapi.RegActivity$1
+com/example/heroapi/NewEntryActivity.java
+ com.example.heroapi.NewEntryActivity
+ com.example.heroapi.NewEntryActivity$1
+com/example/heroapi/User.java
+ com.example.heroapi.User
+com/example/heroapi/MainActivity.java
+ com.example.heroapi.MainActivity
+ com.example.heroapi.MainActivity$1
+ com.example.heroapi.MainActivity$2
+com/example/heroapi/Hero.java
+ com.example.heroapi.Hero
+com/example/heroapi/Validation.java
+ com.example.heroapi.Validation
+com/example/heroapi/Adapter.java
+ com.example.heroapi.Adapter
+ com.example.heroapi.Adapter$MyHolder
+com/example/heroapi/SearchActivity.java
+ com.example.heroapi.SearchActivity
+ com.example.heroapi.SearchActivity$1
+ com.example.heroapi.SearchActivity$AsyncFetch
+com/example/heroapi/JSON.java
+ com.example.heroapi.JSON
