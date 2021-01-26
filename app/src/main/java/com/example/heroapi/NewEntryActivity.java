@@ -27,9 +27,9 @@ public class NewEntryActivity extends AppCompatActivity {
         Toast.makeText(this, hero.getName(), Toast.LENGTH_SHORT).show();
 
 
-        CheckBox checkboxLithuania = findViewById(R.id.Unknown);
-        CheckBox checkboxLatvia = findViewById(R.id.hidden);
-        CheckBox checkboxCustomValue =  findViewById(R.id.jeff);
+        CheckBox checkboxUnknown = findViewById(R.id.Unknown);
+        CheckBox checkboxHidden = findViewById(R.id.hidden);
+        CheckBox checkboxJeff =  findViewById(R.id.jeff);
 
         RadioGroup groupStrength = findViewById(R.id.strength);
         RadioButton customButton = findViewById(R.id.custom_value_rb);
@@ -54,7 +54,7 @@ public class NewEntryActivity extends AppCompatActivity {
 
         Button btnDisplay = findViewById(R.id.display_selected_btn);
 
-        checkboxCustomValue.setText(hero.getName());
+        checkboxJeff.setText(hero.getName());
         customButton.setText(String.valueOf(hero.getStrength()));
         fullNameET.setText(hero.getFullName());
 
@@ -62,14 +62,14 @@ public class NewEntryActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String name = "";
-                if (checkboxLithuania.isChecked()){
-                    name += checkboxLithuania.getText().toString()+ ", ";
+                if (checkboxUnknown.isChecked()){
+                    name += checkboxUnknown.getText().toString()+ ", ";
                 }
-                if (checkboxLatvia.isChecked()){
-                    name += checkboxLatvia.getText().toString()+ ", ";
+                if (checkboxHidden.isChecked()){
+                    name += checkboxHidden.getText().toString()+ ", ";
                 }
-                if (checkboxCustomValue.isChecked()){
-                    name += checkboxCustomValue.getText().toString()+ ", ";
+                if (checkboxJeff.isChecked()){
+                    name += checkboxJeff.getText().toString()+ ", ";
                 }
 
                 int selectedId = groupStrength.getCheckedRadioButtonId();
