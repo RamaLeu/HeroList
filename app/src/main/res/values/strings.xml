@@ -11,7 +11,7 @@
     <string name="login_register_btn">Register</string>
     <string name="login_invalid_username">Wrong Username Or/And Password</string>
 
-    <string name="search_loading_data">Please wait for covid data to be displayed</string>
+    <string name="search_loading_data">Please wait for heroes data to be displayed</string>
     <string name="search_error_reading_data">Couldnt read data from API. For more information: </string>
     <string name="search_no_results">No search results found for query: </string>
     <string name="search_found_entries_from_api">Found total number of hero entries: </string>

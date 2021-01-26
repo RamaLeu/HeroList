@@ -69,6 +69,23 @@
             android:background="@color/colorGrey"
             android:text="@string/login_register_btn" />
 
+
+
     </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="272dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Made by Rama-2021"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorRed"
+        android:textSize="10dp"
+        android:gravity="center_horizontal" />
 
 </LinearLayout>
