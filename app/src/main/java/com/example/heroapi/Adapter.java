@@ -40,6 +40,7 @@ public class Adapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         Hero current = data.get(position);
         myHolder.textName.setText(current.getName());
         myHolder.textStrength.setText("Strength: " + current.getStrength());
+        myHolder.textSpeed.setText("Speed: " + current.getSpeed());
         myHolder.textFullName.setText("Full Name:  " + current.getFullName());
         myHolder.textWork.setText("Work: " +current.getWork());
     }
@@ -54,6 +55,7 @@ public class Adapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     class MyHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         TextView textName;
         TextView textStrength;
+        TextView textSpeed;
         TextView textFullName;
         TextView textWork;
 
@@ -62,6 +64,7 @@ public class Adapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
             super(itemView);
             textName = (TextView) itemView.findViewById(R.id.textName);
             textStrength = (TextView) itemView.findViewById(R.id.textStrength);
+            textSpeed = (TextView) itemView.findViewById(R.id.textSpeed);
             textFullName = (TextView) itemView.findViewById(R.id.textFullName);
             textWork = (TextView) itemView.findViewById(R.id.textWork);
             itemView.setOnClickListener(this);

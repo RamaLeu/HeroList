@@ -48,4 +48,15 @@
         android:layout_marginRight="5dp"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textColor="@color/colorWhite" />
+    <TextView
+        android:id="@+id/textSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginRight="5dp"
+        android:text="Speed"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colorWhite" />
 </RelativeLayout>

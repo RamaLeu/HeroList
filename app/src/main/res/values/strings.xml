@@ -10,6 +10,7 @@
     <string name="login_login_btn">Login</string>
     <string name="login_register_btn">Register</string>
     <string name="login_invalid_username">Wrong Username Or/And Password</string>
+    <string name="login_invalid_registration">Wrong Username Or/And Password Or/And Email</string>
 
     <string name="search_loading_data">Please wait for heroes data to be displayed</string>
     <string name="search_error_reading_data">Couldnt read data from API. For more information: </string>
@@ -19,6 +20,7 @@
     <string name="new_entry_last_update_2">Unknown</string>
     <string name="new_entry_last_update_3">Part of a team</string>
     <string name="new_entry_occupation">Occupation:</string>
+    <string name="new_entry_speed">Speed:</string>
     <string name="new_entry_strength">Strength:</string>
     <string name="new_entry_strength_30">30</string>
     <string name="new_entry_strength_40">40</string>

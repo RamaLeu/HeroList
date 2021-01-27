@@ -58,6 +58,7 @@ public class JSON {
                     json_data.getString("id"),
                     json_data.getString("name"),
                     json_stats.getString("strength"),
+                    json_stats.getString("speed"),
                     json_bio.getString("full-name"),
                     json_work.getString("occupation")
             );
@@ -67,13 +68,13 @@ public class JSON {
     }
 
     public static ArrayList<com.example.heroapi.Hero> getHeroListByName(ArrayList<com.example.heroapi.Hero> heroList, String name) {
-        ArrayList<com.example.heroapi.Hero> heroListByCountry = new ArrayList<com.example.heroapi.Hero>();
+        ArrayList<com.example.heroapi.Hero> heroListByName = new ArrayList<com.example.heroapi.Hero>();
         for (com.example.heroapi.Hero hero : heroList) {
             if (hero.getName().contains(name)) {
-                heroListByCountry.add(hero);
+                heroListByName.add(hero);
             }
         }
-        return heroListByCountry;
+        return heroListByName;
     }
 
 }

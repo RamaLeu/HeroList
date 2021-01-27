@@ -51,12 +51,14 @@ public class NewEntryActivity extends AppCompatActivity {
         spinnerOccupation.setAdapter(dataAdapter);
 
         EditText fullNameET = findViewById(R.id.fullName);
+        EditText speed = findViewById(R.id.speed);
 
         Button btnDisplay = findViewById(R.id.display_selected_btn);
 
         checkboxJeff.setText(hero.getName());
         customButton.setText(String.valueOf(hero.getStrength()));
         fullNameET.setText(hero.getFullName());
+        speed.setText(hero.getSpeed());
 
         btnDisplay.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -76,18 +78,20 @@ public class NewEntryActivity extends AppCompatActivity {
 
                 RadioButton selectedBtn = findViewById(selectedId);
                 String work = String.valueOf(fullNameET.getText());
+                String speeds = String.valueOf(speed.getText());
 
                 String fullName = String.valueOf(spinnerOccupation.getSelectedItem());
 
                 String strength = String.valueOf(selectedBtn.getText());
 
-                Hero hero = new Hero(name, strength, work, fullName);
+                Hero hero = new Hero(name, strength, speeds, work, fullName);
 
                 Toast.makeText(
                         NewEntryActivity.this,
 
                         "Name: "+hero.getName()+"\n"+
                            "Strength: " + hero.getStrength()+ " \n"+
+                                "Speed: " + hero.getSpeed()+ " \n"+
                                 "Occupation: "+hero.getWork()+" \n"+
                                 "Full name: "+hero.getFullName()+" \n",
                         Toast.LENGTH_SHORT

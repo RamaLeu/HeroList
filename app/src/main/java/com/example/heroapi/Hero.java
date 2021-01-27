@@ -6,22 +6,25 @@ public class Hero implements Serializable {
     private String id;
     private String name;
     private String strength;
+    private String speed;
     private String fullName;
     private String work;
 
 
 
-    public Hero(String id, String name, String strength, String fullName, String work) {
+    public Hero(String id, String name, String strength, String speed, String fullName, String work) {
         this.id = id;
         this.name = name;
         this.strength = strength;
+        this.speed = speed;
         this.fullName = fullName;
         this.work = work;
     }
 
-    public Hero(String name, String strength, String fullName, String work) {
+    public Hero(String name, String strength, String speed, String fullName, String work) {
         this.name = name;
         this.strength = strength;
+        this.speed = speed;
         this.fullName = fullName;
         this.work = work;
     }
@@ -48,6 +51,14 @@ public class Hero implements Serializable {
 
     public void setStrength(String strength) {
         this.strength = strength;
+    }
+
+    public String getSpeed() {
+        return speed;
+    }
+
+    public void setSpeed(String speed) {
+        this.speed = speed;
     }
 
     public String getFullName() {

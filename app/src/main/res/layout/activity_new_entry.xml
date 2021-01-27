@@ -90,6 +90,21 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:text="@string/new_entry_speed"
+                android:textColor="@color/colorWhite"/>
+
+            <EditText
+                android:id="@+id/speed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
                 android:text="@string/new_entry_occupation"
                 android:textColor="@color/colorWhite"/>
             <Spinner
